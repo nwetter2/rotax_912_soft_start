@@ -5,7 +5,7 @@ Older versions of the Rotax 900 series engines are prone to kickback on starting
 
 The design is quite simple and uses through-hole components to ease construction. It uses the same connectors as the Rotax ignition system, so one can simply unplug one ignition module and insert the soft start module between it and the timing coils. Then, the disable wire of the opposite ignition module is connected, allowing the unmodified ignition to be disabled during start. The mod is also connected to the starter relay and this is what engages the relays during start. A capacitor keeps the relays engaged for 3-8 seconds after starting. Lastly, there is an optional connection for an external indicator, which will be connected to ground while the module is active and left floating when not.
 
-The selected enclosure is bolted to the top of the existing ignition modules, using longer M5 bolts and washers. The enclosure needs to be modified to accept the larger diameter bolts, and holes added for the wires to pass through. It is recommended to waterproof the pcb after assembly, using the silicone conformal coat listed in the BOM.
+The enclosure is bolted to the top of the existing ignition modules, using longer M5 bolts and washers. The enclosure needs to be modified to accept the larger diameter bolts, and holes added for the wires to pass through. It is recommended to waterproof the pcb after assembly, using the silicone conformal coat listed in the BOM.
 
 ## Schematic
 
