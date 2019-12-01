@@ -1,0 +1,103 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 6wires
+#
+DEF 6wires J 0 40 Y N 1 F N
+F0 "J" 50 200 50 H V C CNN
+F1 "6wires" 50 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+T 0 300 50 20 0 0 0 bl Normal 0 C C
+T 0 -200 150 20 0 0 0 br Normal 0 C C
+T 0 -200 50 20 0 0 0 ge/yl Normal 0 C C
+T 0 300 -50 20 0 0 0 gr Normal 0 C C
+T 0 300 150 20 0 0 0 or Normal 0 C C
+T 0 -200 -50 20 0 0 0 ws/wh Normal 0 C C
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 150 -150 1 1 10 f
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 300 100 150 L 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 300 0 150 L 50 50 1 1 P
+X Pin_5 5 -200 -100 150 R 50 50 1 1 P
+X Pin_6 6 300 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 6wires_a
+#
+DEF 6wires_a J 0 40 Y N 1 F N
+F0 "J" 50 200 50 H V C CNN
+F1 "6wires_a" 50 -500 50 H V C CNN
+F2 "" 100 -500 50 H I C CNN
+F3 "" 100 -500 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+T 0 300 -150 20 0 0 0 bl Normal 0 C C
+T 0 300 150 20 0 0 0 br Normal 0 C C
+T 0 300 -50 20 0 0 0 ge/yl Normal 0 C C
+T 0 300 -350 20 0 0 0 gr Normal 0 C C
+T 0 300 50 20 0 0 0 or Normal 0 C C
+T 0 300 -250 20 0 0 0 ws/wh Normal 0 C C
+S 150 150 -50 -450 0 1 10 f
+S 100 -95 150 -105 1 1 6 N
+S 150 -405 100 -395 1 1 6 N
+S 150 -295 100 -305 1 1 6 N
+S 150 -195 100 -205 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 95 100 105 1 1 6 N
+X Pin_1 1 300 100 150 L 50 50 1 1 P
+X Pin_2 2 300 0 150 L 50 50 1 1 P
+X Pin_3 3 300 -100 150 L 50 50 1 1 P
+X Pin_4 4 300 -200 150 L 50 50 1 1 P
+X Pin_5 5 300 -300 150 L 50 50 1 1 P
+X Pin_6 6 300 -400 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 6wires_b
+#
+DEF 6wires_b J 0 40 Y N 1 F N
+F0 "J" 50 200 50 H V C CNN
+F1 "6wires_b" 50 -500 50 H V C CNN
+F2 "" 100 -500 50 H I C CNN
+F3 "" 100 -500 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+T 0 -200 -150 20 0 0 0 bl Normal 0 C C
+T 0 -200 150 20 0 0 0 br Normal 0 C C
+T 0 -200 -50 20 0 0 0 ge/yl Normal 0 C C
+T 0 -200 -350 20 0 0 0 gr Normal 0 C C
+T 0 -200 50 20 0 0 0 or Normal 0 C C
+T 0 -200 -250 20 0 0 0 ws/wh Normal 0 C C
+S 150 150 -50 -450 0 1 10 f
+S -50 -95 0 -105 1 1 6 N
+S 0 -405 -50 -395 1 1 6 N
+S 0 -295 -50 -305 1 1 6 N
+S 0 -195 -50 -205 1 1 6 N
+S 0 5 -50 -5 1 1 6 N
+S 0 95 -50 105 1 1 6 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+X Pin_5 5 -200 -300 150 R 50 50 1 1 P
+X Pin_6 6 -200 -400 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

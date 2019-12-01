@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name Relay)(type Legacy)(uri ${KIPRJMOD}/Relay.lib)(options "")(descr ""))
+  (lib (name "rotax 912 soft start-cache")(type Legacy)(uri "${KIPRJMOD}/rotax 912 soft start-cache.lib")(options "")(descr ""))
+  (lib (name rotax-912-soft-start-rescue)(type Legacy)(uri "${KIPRJMOD}/rotax 912 soft start-rescue.lib")(options "")(descr ""))
+  (lib (name "rotax 912 soft start")(type Legacy)(uri "${KIPRJMOD}/rotax 912 soft start.lib")(options "")(descr ""))
+)
