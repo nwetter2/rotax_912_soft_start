@@ -1,7 +1,7 @@
 # rotax_912_soft_start
 Soft start ignition module for Rotax 900 series engines
 
-All parts listed in BOM.
+All parts [listed in BOM](https://github.com/nwetter2/rotax_912_soft_start/blob/master/BOM.pdf).
 
 Older versions of the Rotax 900 series engines are prone to kickback on starting, which is violent and damaging to the engine. This project, inspired by a similar project by Turbo-Tom at [Rotary Wing Forums](https://www.rotaryforum.com/threads/soft-start-unit-for-rotax-912uls.23381/), solves the issue by ensuring retarded timings are used during start. It accomplishes this by using a relay to introduce a diode in parallel with the timing coil, which filters out the advanced timing pulse, which is opposite the polarity of the retarded timing pulse. Note that Turbo-Tom's design indroduces the diode in series with the coil, and this did not work in testing.
 
